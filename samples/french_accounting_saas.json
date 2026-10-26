@@ -1,0 +1,40 @@
+{
+  "subject": "French SMB accounting & finance SaaS",
+  "note": "Cached sample run. Every claim was checked by hand against the cited source text.",
+  "sources": [
+    {"id": 1, "title": "Pennylane : la fintech passe le cap des 100 millions d'euros de revenus et devient un centaure (Maddyness, 2025-12-04)", "url": "https://www.maddyness.com/2025/12/04/pennylane-la-fintech-passe-le-cap-des-100-millions-deuros-de-revenus-et-devient-un-centaure/"},
+    {"id": 2, "title": "Pennylane franchit les 100 millions d'euros d'ARR (mind Fintech)", "url": "https://www.mind.eu.com/fintech/article/pennylane-franchit-les-100-millions-deuros-darr/"},
+    {"id": 3, "title": "Pennylane doubles valuation as Alphabet VC fund takes stake (CNBC, 2025-04-06)", "url": "https://www.cnbc.com/2025/04/06/pennylane-doubles-valuation-as-alphabet-vc-fund-takes-stake.html"},
+    {"id": 4, "title": "Pennylane : nouvelle levée de fonds de 175 millions d'euros (Maddyness, 2026-01-20)", "url": "https://www.maddyness.com/2026/01/20/pennylane-nouvelle-levee-de-fonds-de-175-millions-deuros-pour-la-licorne-francaise/"},
+    {"id": 5, "title": "Qonto a doublé son résultat net en 2024 (mind Fintech)", "url": "https://www.mind.eu.com/fintech/article/qonto-a-double-son-resultat-net-en-2024-a-144-millions-deuros/"},
+    {"id": 6, "title": "Qonto 2024 activity report", "url": "https://www.lobbyregister.bundestag.de/media/24/01/586158/Qonto_Activity-report_2024_EN.pdf"},
+    {"id": 7, "title": "Flush with cash, French fintech unicorn Qonto acquires Regate (TechCrunch, 2024-03-06)", "url": "https://techcrunch.com/2024/03/06/flush-with-cash-french-fintech-unicorn-qonto-acquires-regate/"}
+  ],
+  "report": {
+    "summary": {"claim": "This is a fast-growing market that is consolidating. France's mandatory e-invoicing reform (Sept 2026, Sept 2027 for SMEs) pushes SMEs and their accountants onto digital tools, and the leaders are buying adjacent tools to become the SME's finance 'cockpit'.", "sources": [1, 4, 7]},
+    "competitors": [
+      {"name": "Pennylane", "positioning": "All-in-one accounting platform sold through accountants: €115m ARR in 2025 (€60m in 2024), 6,000+ partner accounting firms, valued at €3.5bn", "sources": [1, 2, 4]},
+      {"name": "Qonto", "positioning": "SME neobank expanding into bookkeeping, AP/AR and spend management: €449m net banking income in 2024 (+44%), 552,000 customers, acquired Regate", "sources": [5, 6, 7]},
+      {"name": "Cegid (with Shine)", "positioning": "Incumbent accounting-software vendor that acquired the neobank Shine", "sources": [1]},
+      {"name": "Regate (now Qonto)", "positioning": "Accounting automation for 10,000 SMEs and 500 accounting firms", "sources": [7]}
+    ],
+    "five_forces": {
+      "rivalry": {"rating": "high", "rationale": "Neobanks, incumbents and accounting platforms are converging on the same SME finance stack through acquisitions (Qonto-Regate, Cegid-Shine, Pennylane-Billy)", "sources": [1, 7]},
+      "new_entrants": {"rating": "medium", "rationale": "Capital is available, but the leaders raise very large rounds (Pennylane €175m in 2026) and distribute through accounting-firm networks, which raises the bar", "sources": [4, 1]},
+      "buyer_power": {"rating": "medium", "rationale": "Accounting firms act as gatekeepers: the reform has accelerated their migration more than that of SMEs", "sources": [4]},
+      "supplier_power": {"rating": "n/a", "rationale": "insufficient evidence", "sources": []},
+      "substitutes": {"rating": "low", "rationale": "The e-invoicing mandate phases out sending invoices by e-mail as files, which removes the manual substitute", "sources": [1]}
+    },
+    "key_success_factors": [
+      {"claim": "Distribution through accounting firms (Pennylane has 6,000+ partners; 6,000 accounting firms are Qonto customers)", "sources": [1, 7]},
+      {"claim": "Readiness for the e-invoicing reform ahead of the 2026-2027 deadlines", "sources": [1, 4]},
+      {"claim": "Product breadth through modular add-ons and integrations (AP/AR, bookkeeping, spend)", "sources": [6]},
+      {"claim": "Low acquisition cost with an R&D-heavy cost base (75% of Pennylane's costs are R&D)", "sources": [3]}
+    ],
+    "risks": [
+      {"claim": "Growth is pulled forward by a one-off regulatory deadline, and SME adoption had not yet accelerated as of January 2026", "sources": [4]},
+      {"claim": "Profitability is not yet proven for some leaders: Pennylane's breakeven was expected only 'next year'", "sources": [1]},
+      {"claim": "European expansion means serving different country-specific accounting rules (Pennylane is entering Germany; Qonto entered four new markets in 2024)", "sources": [3, 6]}
+    ]
+  }
+}
